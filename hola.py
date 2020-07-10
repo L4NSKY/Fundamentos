@@ -9,7 +9,9 @@ contBanana = 0
 contMasaje = 0
 contVapor = 0
 
-if noches >= 3:
+if noches <= 0:
+    print("No se está registrando para ninguna noche.")
+elif noches >= 3:
     bono = 1450
     print("Usted aplica para un bono de 1450dlls para ser utilizado en actividades del hotel")
     while opcion != 4:
