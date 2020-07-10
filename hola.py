@@ -86,4 +86,4 @@ if noches >= 3:
 else:
     print("Gracias por su preferencia")
 
-print("Hola chori")
+print("Hola mym")
