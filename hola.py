@@ -54,12 +54,13 @@ elif noches >= 3:
             ganador = False
 
             print("BIENVENIDO AL ADIVINADOR 3000\nEscoge un numero entre 0 y 100")
+            print("--------------------------------------------------------------")
             while contador > 0:
                 print("Le quedan ", contador, " intentos")
                 escogido = int(input("Ingrese un numero:\n"))
                 if escogido == numeroRandom:
                     print("¡Felicidades! Gano un pase para la noche casino.")
-                    print("Le tomó ", (8 - contador + 1), " intentos")
+                    print("Le tomó ", (9 - contador), " intentos")
                     contador = 0
                     ganador = True
                 elif escogido < numeroRandom:
