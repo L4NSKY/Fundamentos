@@ -86,4 +86,3 @@ if noches >= 3:
 else:
     print("Gracias por su preferencia")
 
-print("Ya estoy hasta la verga dudoso")
