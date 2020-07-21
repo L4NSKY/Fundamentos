@@ -2,11 +2,11 @@ def divPalabras(word, num):
     counter = 0
     newWord = ""
 
-    for i in word:
+    for i in range(len(word)):
         if counter == num:
             newWord += "-"
             counter = 0
-        newWord += i
+        newWord += word[i]
         counter += 1
     return newWord
 
